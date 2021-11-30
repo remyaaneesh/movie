@@ -1,0 +1,17 @@
+.navbar-default {
+  background-color:#003366;
+  border-color: #425766;
+}
+h1{
+color:red;
+}
+
+.form1 {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+body{
+    background-color:#ffcc99;
+    }

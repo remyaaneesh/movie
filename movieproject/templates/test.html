@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+{% for i in movie_list %}
+
+<table>
+    <tr>
+        <td>
+            <img src="{{i.img.url}}" width="150" height="150">
+        </td>
+{% url 'detail' i.id %
+    </tr>
+</table>
+<!--<a class="btn btn-warning" href="{%url 'movieapp:update' movie.id %}">update</a>-->
+{% endfor %}
+{% endblock %}
